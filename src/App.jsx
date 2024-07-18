@@ -113,7 +113,7 @@
 // export default App;
 
 
-Galereya
+// Galereya
 
 import React from 'react';
 import ImageGallery from './Components/Galery/index.jsx';
