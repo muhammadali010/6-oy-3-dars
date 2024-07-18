@@ -113,26 +113,26 @@
 // export default App;
 
 
-// Galereya
+Galereya
 
-// import React from 'react';
-// import ImageGallery from './Components/Galery/index.jsx';
+import React from 'react';
+import ImageGallery from './Components/Galery/index.jsx';
 
-// const App = () => {
-//   const images = [
-//     'https://picsum.photos/id/249/150/150',
-//     'https://picsum.photos/id/257/150/150',
-//     'https://picsum.photos/id/247/150/150',
-//     'https://picsum.photos/id/137/150/150',
-//     'https://picsum.photos/id/238/150/150',
-//   ];
+const App = () => {
+  const images = [
+    'https://picsum.photos/id/249/150/150',
+    'https://picsum.photos/id/257/150/150',
+    'https://picsum.photos/id/247/150/150',
+    'https://picsum.photos/id/137/150/150',
+    'https://picsum.photos/id/238/150/150',
+  ];
 
-//   return (
-//     <div className="App">
-//       <h1>Image Gallery</h1>
-//       <ImageGallery images={images} />
-//     </div>
-//   );
-// };
+  return (
+    <div className="App">
+      <h1>Image Gallery</h1>
+      <ImageGallery images={images} />
+    </div>
+  );
+};
 
-// export default App;
+export default App;
