@@ -1,0 +1,59 @@
+.image-gallery {
+    text-align: center;
+  }
+  
+  .imagess {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .image {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.3s;
+  }
+  
+  .image:hover {
+    border-color: blue;
+  }
+  
+  .lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .lightbox-content {
+    position: relative;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .lightbox-content img {
+    max-width: 80vw;
+    max-height: 80vh;
+  }
+  
+  .lightbox-content button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+  }
+  
